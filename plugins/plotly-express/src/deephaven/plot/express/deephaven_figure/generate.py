@@ -15,7 +15,7 @@ from deephaven import empty_table
 from .DeephavenFigure import DeephavenFigure
 from ..data_mapping import create_data_mapping
 from ..shared import combined_generator
-
+# test
 TYPE_NULL_MAPPING = {
     "byte": "NULL_BYTE",
     "short": "NULL_SHORT",
