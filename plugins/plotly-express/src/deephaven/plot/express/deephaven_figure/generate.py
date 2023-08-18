@@ -15,7 +15,7 @@ from deephaven import empty_table
 from .DeephavenFigure import DeephavenFigure
 from ..data_mapping import create_data_mapping
 from ..shared import combined_generator
-# test
+
 TYPE_NULL_MAPPING = {
     "byte": "NULL_BYTE",
     "short": "NULL_SHORT",
@@ -26,7 +26,7 @@ TYPE_NULL_MAPPING = {
     "java.time.Instant": "`2000-01-01`",
 }
 
-# these are data args that can always be safely converted to lists, mostly for
+# these are data args that can always be safely converted to lists, mostly ford
 # convenience
 DATA_LIST_ARGS = {"open", "high", "low", "close", "x_finance"}
 
