@@ -26,7 +26,7 @@ TYPE_NULL_MAPPING = {
     "java.time.Instant": "`2000-01-01`",
 }
 
-# these are data args that can always be safely converted to lists, mostly for
+# these are data args that can always be safely converted to lists, mostly ford
 # convenience
 DATA_LIST_ARGS = {"open", "high", "low", "close", "x_finance"}
 
